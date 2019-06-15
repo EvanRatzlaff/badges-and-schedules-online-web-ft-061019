@@ -2,12 +2,13 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 def batch_badge_creator(array)
-  nuarray = []
+  otherarray = []
   array.each do |name|
-    nuarray.push("Hello, my name is #{name}.")
+    otherarray.push("Hello, my name is #{name}.")
   end
-  nuarray
+  otherarray
 end
 def assign_rooms
-  
+  list = []
+  assign = 
 end
