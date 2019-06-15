@@ -12,6 +12,8 @@ def assign_rooms(array)
   list = []
   assign = 1
   assign.each { |name| 
-  list.push("Hello, #{name}! You'll be assigned to room #{assign}!")}
+  list.push("Hello, #{name}! You'll be assigned to room #{assign}!")
   assign += 1
+  }
+  list
 end
