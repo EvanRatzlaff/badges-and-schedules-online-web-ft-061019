@@ -11,6 +11,7 @@ end
 def assign_rooms(name)
   list = []
   assign = 1
+  assign.each {
   "Hello, #{name}! You'll be assigned to room #{assign}!"
   assign += 1
 end
